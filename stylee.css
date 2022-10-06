@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/* esto es el header*/
+.nav-menu{
+    background-color: rgba(17, 17, 17, 0.884);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 1rem;
+    color: rgb(255, 255, 255);
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.nav-menu li{
+    margin-right: 7rem;
+}
+.nav-menu a{
+    color: #ffffff;
+}
+.nav-menu a:hover{
+    color: #78a6fd;
+}
+/* parte del main*/
+.medio{
+    background-image: url(https://images.pexels.com/photos/5477709/pexels-photo-5477709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    overflow: hidden;
+    padding: 10vh;
+}
+.medio h1{
+    text-align: center;
+    padding: 1vh;
+    color: rgb(3, 5, 39);
+}
+.medio h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+/* parte del footer*/
+.footer{
+    background-color: rgba(17, 17, 17, 0.884);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.piepagina{
+    display: flex;
+    align-items: center;
+}
+.piepagina h3{
+    color: rgb(73, 70, 77);
+    margin: 5vh;
+    margin-right: 10px;
+}
+.piepagina ul{
+    display: flex;
+    align-items: center;
+}
+.piepagina li{
+    margin-right: 30px;
+}
+.piepagina a{
+    color: rgb(255, 255, 255);
+}
+.piepagina a:hover{
+    color: #1f9bcc;
+}
+.rights{
+    color: white;
+}
+/* parte del respon*/
+@media screen and (max-width:400px) {
+    .nav-menu {
+    flex-direction: column;
+    align-items: center;
+}
+  .nav-menu li {
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px;
+  }
+  .nav-menu h1 {
+    text-align: center;
+  }
